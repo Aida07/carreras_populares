@@ -1,0 +1,170 @@
+$color: #86c8b4; 
+
+
+* {
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Architects Daughter', cursive; 
+  font-weight: bolder;
+}
+.section-info {
+  background-color: $color;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  color: $color;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Architects Daughter', cursive; }
+
+.navbar-inverse {
+  background-color: white; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: $color; }
+
+
+.navbar-brand {
+  margin-bottom: 5px;
+}
+#img-background {
+  width: 100%;
+  height: 600px; }
+
+a:hover {
+  text-decoration: none; }
+
+.logo {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 5px; 
+}
+.logo-animated {
+   -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.logo-animated:hover {
+   border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+           }
+
+li {
+
+  display: inline; }
+
+.photoPortada {
+  width: 340px;
+  height: 270px;
+  padding: 20px;
+   }
+
+.colphotos {
+  margin: 0 auto;
+  border-top: 3px;
+  border-color: $color; }
+
+footer {
+  background-color: white; 
+  text-align: center;
+  }
+
+#col {
+  width: 200px;
+  height: 200px; }
+
+.map-info {
+  margin-top: 20px;
+  border-top: 3px;
+  background-color: $color;
+   }
+
+#menu-map {
+  background-color: $color;
+}
+
+.carousel-button {
+      margin-bottom: 150px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #5aafb0;
+    border-color: white;
+    margin-bottom: 30px;
+} 
+.btn-primary:hover {
+  background-color: grey;
+  border-color: #5aafb0
+}
+
+#route-map {
+  padding: 10px;
+  background-color:white;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  height: 500px;
+  width: 300px;
+   }
+
+#map {
+  margin-bottom: 10px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #dbe8ec; }
+
+::-webkit-scrollbar-button {
+  width: 8px;
+  height: 5px; }
+
+::-webkit-scrollbar-track {
+  background: #3c454e;
+  border: thin solid #1a1f25;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(top, #5aafb0, #4ca06d);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 225, 0.5), inset 1px 0 0 rgba(255, 255, 255, 0.4), inset 0 1px 2px rgba(255, 255, 255, 0.3);
+  border: thin solid #232c34;
+  border-radius: 10px;
+  -webkit-border-radius: 10px; }
+
+/* Pseudo-clase */
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(77, 161, 112, 0.6); }
+
+#photo-natacion {
+  width: 100%;
+}
+
+.navbar-right {
+  margin-right: 30px;
+}
+
+#hi {
+    color: #fff;
+    background-color: #5aafb0;
+    border-color: white;
+}
+
+#space {
+  margin-top: 30px;
+}
+
+#button-card {
+  margin-left: 130px;
+}
+
+#input-form {
+  width: 260px;
+}

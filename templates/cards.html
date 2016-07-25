@@ -1,0 +1,15 @@
+
+<div id="space" class="row">
+  <div ng-repeat="point in points | orderBy:'name' | filter: name | filter:query" class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img class="card-image" ng-src="{{point.img}}" alt="">
+      <div class="caption">
+        <h3>{{point.name}}</h3>
+        <p>{{point.start}}</p>
+         <a href="{{point.web}}" target="_blank">Accede a la web del evento</a><br>
+        <a ng-href="showRoutes/{{point.id}}" id=button-card class="btn btn-primary" role="button">Recorrido</a>
+
+      </div>
+    </div>
+  </div>
+</div>

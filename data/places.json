@@ -1,0 +1,446 @@
+[{
+	"id": 1,
+	"name": "Chamberí Summer Race",
+	"place": "Madrid",
+	"date": "10/07/2016",
+	"start": "C/ Santander (junto al antiguo Estadio de Vallehermoso)",
+	"type": "Carrera",
+	"distance": "10",
+	"img": "./img/chamberi.png",
+	"price": "10",
+	"web": "http://www.chamberisummerrace.com",
+	"coords": {
+		"lng": -3.708861,
+		"lat": 40.442424
+	},
+	"origin": {
+		"lng": -3.688775,
+		"lat": 40.465832
+	},
+	"destination": {
+		"lng": -3.649761,
+		"lat": 40.467128
+	},
+	"madrid": true,
+	"running": true,
+	"julio": true
+}, {
+	"id": 2,
+	"name": "Aquatlón El Rasillo",
+	"place": "La Rioja",
+	"date": " 02/07/2016",
+	"start": "El Rasillo,  La Rioja  (La Rioja).  España",
+	"type": "Natacion",
+	"distance": "6",
+	"img": "./img/acuatlon-logroño.jpg",
+	"price": "10",
+	"web": "http://triatlonrioja.blogspot.com.es/",
+	"coords": {
+		"lng": -2.698168,
+		"lat": 42.194377
+	},
+	"origin": {
+		"lng": -3.54541,
+		"lat": 40.45823
+	},
+	"destination": {
+		"lng": -3.55882,
+		"lat": 40.45236
+	},
+	"laRioja": true,
+	"swimming": true,
+	"julio": true
+}, {
+	"id": 3,
+	"name": "II Premiatlo 2014 Popular",
+	"place": "Madrid",
+	"date": "10/07/2016",
+	"start": "C/ Santander (junto al antiguo Estadio de Vallehermoso)",
+	"type": "Carrera",
+	"distance": "10",
+	"img": "./img/premiatlo.jpg",
+	"price": "10",
+	"web": "http://www.chamberisummerrace.com",
+	"coords": {
+		"lng": -3.817661,
+		"lat": 43.463582
+	},
+	"origin": {
+		"lng": -3.57776,
+		"lat": 40.54887
+	},
+	"destination": {
+		"lng": -3.62295,
+		"lat": 40.54154
+	},
+	"madrid": true,
+	"running": true,
+	"julio": true
+}, {
+	"id": 4,
+	"name": "UpStream Lago de Sanabria 2016",
+	"place": "Zamora",
+	"date": "3/09/2016",
+	"start": "Galende, Playa de Viquiella",
+	"type": "Natacion",
+	"distance": "6,5",
+	"img": "./img/galende.jpg",
+	"price": "24",
+	"web": "http://www.upstreamswim.es",
+	"coords": {
+		"lng": -6.702757,
+		"lat": 42.127714
+	},
+	"origin": {
+		"lng": -3.25416,
+		"lat": 41.04887
+	},
+	"destination": {
+		"lng": -3.26295,
+		"lat": 40.90254
+	},
+	"castillayLeon": true,
+	"swimming": true,
+	"septiembre": true
+
+}, {
+	"id": 5,
+	"name": "Spartan Super Encamp - Andorra",
+	"place": "Andorra",
+	"date": "31/07/2016",
+	"start": "Estación de esquí de Grandvalira, sector Grau Roig, AD200 Grau Roig, Encamp- Andorra",
+	"type": "Carrera",
+	"distance": "59",
+	"img": "./img/spartan.jpg",
+	"price": "59",
+	"web": "http://spartanrace.es/",
+	"coords": {
+		"lng": 1.584745,
+		"lat": 42.534139
+	},
+	"origin": {
+		"lng": -3.25416,
+		"lat": 41.04887
+	},
+	"destination": {
+		"lng": -3.26295,
+		"lat": 40.90254
+	},
+	"cataluna": true,
+	"running": true,
+	"julio": true
+}, {
+	"id": 6,
+	"name": "Skoda Titán Xtrem Tour-Titán Valle del Alagón 2016",
+	"place": "Cáceres",
+	"date": "17/07/2016",
+	"start": "Villa del Campo",
+	"type": "Bici",
+	"distance": "30",
+	"img": "./img/skoda.jpg",
+	"price": "20",
+	"web": "http://skodatitanxtrem.com/",
+	"coords": {
+		"lng": -6.470130,
+		"lat": 40.140922
+	},
+	"origin": {
+		"lng": -3.25416,
+		"lat": 41.04887
+	},
+	"destination": {
+		"lng": -3.26295,
+		"lat": 40.90254
+	},
+	"extremadura": true,
+	"cycling": true,
+	"julio": true
+
+}, {
+	"id": 7,
+	"name": "VII Maratón Málaga",
+	"place": "Málaga",
+	"date": "4/12/2016",
+	"start": "C/ Santander (junto al antiguo Estadio de Vallehermoso)",
+	"type": "Carrera",
+	"distance": "42.195",
+	"img": "./img/malaga-maraton.jpg",
+	"price": "23",
+	"web": "http://www.maratonmalaga.com/",
+	"coords": {
+		"lng": -4.466977,
+		"lat": 36.706532
+	},
+	"origin": {
+		"lng": -3.688775,
+		"lat": 40.465832
+	},
+	"destination": {
+		"lng": -3.649761,
+		"lat": 40.467128
+	},
+	"andalucia": true,
+	"running": true,
+	"diciembre": true
+}, {
+	"id": 8,
+	"name": "Gran Fons Ponent",
+	"place": "Lleida",
+	"date": "28/08/2016",
+	"start": "Almenar",
+	"type": "Bici",
+	"distance": "70",
+	"img": "./img/gfp.jpg",
+	"price": "30",
+	"web": "http://www.granfonsponent.es/",
+	"coords": {
+		"lng": 0.568123,
+		"lat": 41.796826
+	},
+	"origin": {
+		"lng": -3.688775,
+		"lat": 40.465832
+	},
+	"destination": {
+		"lng": -3.649761,
+		"lat": 40.467128
+	},
+	"cataluna": true,
+	"cycling": true,
+	"agosto": true
+}, {
+	"id": 9,
+	"name": "III Carrera noche de San Juan",
+	"place": "Sevilla",
+	"date": "24/11/2016",
+	"start": "Parque del Alamillo",
+	"type": "Carrera",
+	"distance": "9,5",
+	"img": "./img/nochesanjuan.jpg",
+	"price": "8",
+	"web": "http://www.carreranochesanjuan.com/",
+	"coords": {
+		"lng": -5.978428,
+		"lat": 37.605910
+	},
+	"origin": {
+		"lng": -5.978428,
+		"lat": 37.605910
+	},
+	"destination": {
+		"lng": -5.978428,
+		"lat": 37.605910
+	},
+	"andalucia": true,
+	"running": true,
+	"noviembre": true
+}, {
+	"id": 10,
+	"name": "CMX Carrera por montaña nocturna San juan",
+	"place": "Granada",
+	"date": " 23/11/2016",
+	"start": "Senderos de las Minas (Granada).  España",
+	"type": "Carrera",
+	"distance": "16",
+	"img": "./img/cmxgranada.jpg",
+	"price": "15",
+	"web": "http://cxmnocturnadesanjuan.blogspot.com.es/",
+	"coords": {
+		"lng": -3.600494,
+		"lat": 37.179692
+	},
+	"origin": {
+		"lng": -3.600494,
+		"lat": 37.179692
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"andalucia": true,
+	"running":true,
+	"noviembre": true
+}, {
+	"id": 11,
+	"name": "6ª Legua nocturna, Zagros sport",
+	"place": "Madrid",
+	"date": " 10/06/2016",
+	"start": "Senderos de las Minas (Granada).  España",
+	"type": "Carrera",
+	"distance": "9,65",
+	"img": "./img/leguanocturna.jpg",
+	"price": "10",
+	"web": "http://leguanocturna.com/",
+	"coords": {
+		"lng": -3.598386,
+		"lat": 37.174309
+	},
+	"origin": {
+		"lng": -3.600494,
+		"lat": 40.537426
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"madrid": true,
+	"running": true
+}, {
+	"id": 12,
+	"name": " 4 Horas BTT OFFROAD RACE",
+	"place": "Almeria",
+	"date": "04/09/2016",
+	"start": "Instalaciones ANDALUCIA CIRCUIT (Tabernas – Almería)",
+	"type": "Bici",
+	"distance": "8",
+	"img": "./img/4btt.jpg",
+	"price": "22",
+	"web": "http://www.bttoffroadrace.com/",
+	"coords": {
+		"lng": -2.393018,
+		"lat": 37.050775
+	},
+	"origin": {
+		"lng": -3.600494,
+		"lat": 40.537426
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"andalucia": true,
+	"cycling": true,
+	"septiembre": true
+}, {
+	"id": 13,
+	"name": "Bizkaia Kopa Trail MTB 2016 - Etapa 5 Trapagaran",
+	"place": "Vizcaya",
+	"date": " 18/09/2016",
+	"start": "Trapagaran",
+	"type": "Bici",
+	"distance": "20 ",
+	"img": "./img/bkt-logo.jpg",
+	"price": "20",
+	"web": "http://www.bizkaiakopatrail.com/",
+	"coords": {
+		"lng": -3.035184,
+		"lat": 43.294824
+	},
+	"origin": {
+		"lng": -3.600494,
+		"lat": 40.537426
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"paisVasco": true,
+	"cycling": true,
+	"septiembre": true
+}, {
+	"id": 14,
+	"name": "La Indurain 2016 Marcha Cicloturista",
+	"place": "Navarra",
+	"date": "23/07/2016",
+	"start": "Villava",
+	"type": "Bici",
+	"distance": "102",
+	"img": "./img/indurain.jpg",
+	"price": "20",
+	"web": "http://www.laindurain.com//",
+	"coords": {
+		"lng": -1.607436,
+		"lat": 42.832123
+	},
+	"origin": {
+		"lng": -3.600494,
+		"lat": 40.537426
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"navarra": true,
+	"cycling": true,
+	"julio": true
+}, {
+	"id": 15,
+	"name": " Marcha Ciudad Valencia",
+	"place": "Valencia",
+	"date": " 1/10/2016",
+	"start": "Marina Real Juan Carlos I",
+	"type": "Bici",
+	"distance": "80",
+	"img": "./img/mcv.png",
+	"price": "35",
+	"web": "http://marchaciudadvalencia.es//",
+	"coords": {
+		"lng": -0.357756,
+		"lat": 39.487464
+	},
+	"origin": {
+		"lng": -3.600494,
+		"lat": 40.537426
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"comunidadValenciana": true,
+	"cycling": true,
+	"octubre": true
+}, {
+	"id": 16,
+	"name": "Oceanman Campeonato del mundo Benidorm",
+	"place": "Alicante",
+	"date": " 16/10/2016",
+	"start": "Benidorm",
+	"type": "Natacion",
+	"distance": "10",
+	"img": "./img/oceanman.jpg",
+	"price": "20",
+	"web": "http://oceanman-openwater.com/oceanman-campeonato-europa-benidorm/",
+	"coords": {
+		"lng": -0.121253,
+		"lat": 38.535567
+	},
+	"origin": {
+		"lng":  -0.121972,
+		"lat": 38.539406
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"comunidadValenciana": true,
+	"swimming": true,
+	"octubre": true
+}, {
+	"id": 17,
+	"name": "Travesía desafío Cullera",
+	"place": "Valencia",
+	"date": " 27/08/16",
+	"start": "Cullera",
+	"type": "Natacion",
+	"distance": "10",
+	"img": "./img/cullera.jpg",
+	"price": "20",
+	"web": "http://www.clubnataciotimetrialswim.com/",
+	"coords": {
+		"lng": -0.253198,
+		"lat": 39.159073
+	},
+	"origin": {
+		"lng":  -0.121972,
+		"lat": 38.539406
+	},
+	"destination": {
+		"lng": -3.583882,
+		"lat": 37.165447
+	},
+	"comunidadValenciana": true,
+	"swimming": true,
+	"agosto": true
+}
+
+]

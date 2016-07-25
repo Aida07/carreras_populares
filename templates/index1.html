@@ -1,0 +1,115 @@
+
+
+<br>
+<br>
+<br>
+<div class="container">
+  <h3>ENCUENTRA TU PRUEBA EN NUESTRO BUSCADOR DE CARRERAS</h3>
+</div>
+<div class="container">
+<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="input-form" type="text" class="form-control" placeholder="Introduce el nombre de tu carrera" ng-model="name">
+  <div class="btn-group">
+  <button type="button" id="hi" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Comunidades Autónomas <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+
+    <li><a href="#"><option ng-click="setQuery('galicia')" value="Galicia">Galicia</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('asturias')" value="Asturias">Asturias</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('catabria')" value="Cantabria">Cantabria</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('paisVasco')" value="País Vasco">País Vasco</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('navarra')" value="Navarra">Navarra</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('cataluna')" value="Cataluña">Cataluña</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('aragon')" value="Aragón">Aragón</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('comunidadValenciana')" value="Comunidad Valenciana">Comunidad Valenciana</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('murcia')" value="Murcia">Murcia</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('andalucia')" value="Andalucía">Andalucía</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('castillaLamancha')" value="Castilla, La Mancha">Castilla, La Mancha</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('extremadura')" value="Extremadura">Extremadura</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('madrid')" value="Madrid">Madrid</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('castillayLeon')" value="Castilla y León">Castilla y León</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('laRioja')" value="La Rioja">La Rioja</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('islasCanarias')" value="Islas Canarias">Islas Canarias</option></a></li>
+    <li><a href="#"><option ng-click="setQuery('islasBaleares')" value="Islas Baleares">Islas Baleares</option></a></li>
+    <li role="separator" class="divider"></li>
+    
+  </ul>
+</div>   
+ 
+ <div class="btn-group">
+ <button type="button" id="hi" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Deporte<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#"><option ng-click="setQuery('running')" value="running">Running</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('cycling')" value="cycling">Cycling</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('swimming')" value="swimming">Natación</option></a></li>
+    <li role="separator" class="divider"></li>
+  </ul>
+</div>    
+    
+  
+<div class="btn-group">
+ <button type="button" id="hi"  class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Fecha<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+     <li><a href="#"><option ng-click="setQuery('julio')" value="">Julio</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('agosto')" value="">Agosto</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('septiembre')" value="">Septiembre</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('octubre')" value="">Octubre</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('noviembre')" value="">Noviembre</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('diciembre')" value="">Diciembre</option></a></li>
+ 
+    <li role="separator" class="divider"></li>
+    
+  </ul>
+</div>  
+
+  
+<div class="btn-group">
+ <button type="button" id="hi"  class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Precios<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+     <li><a href="#"><option ng-click="setQuery('diez')" value="">0 a 10 €</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('veinte')" value="">10 a 20 €</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('treinta')" value="">20 a 30 €</option></a></li>
+     <li><a href="#"><option ng-click="setQuery('cuarenta')" value="">más de 40 €</option></a></li>
+    
+    
+ 
+    <li role="separator" class="divider"></li>
+    
+  </ul>
+</div>   
+</div>
+</form>
+</div>
+
+ 
+<div class="container">
+	 <cards-directive></cards-directive>
+</div>
+
+ 
+
+<!--  
+  <section class="map-info">
+    <div class="container map-info">
+        <div class="col-sm-9">
+        <ng-map zoom="6" center="40.418132, -3.699943" style="width: 800px; height: 500px;">
+    <div ng-repeat= "point in points">
+      <marker position="{{point.coords.lat}}, {{point.coords.lng}}">
+      </marker>
+     </div>
+      </ng-map>
+      </div>
+      <div class="col-sm-3 info-content">
+        <div id="route-map">Loading...</div>
+      </div>
+    </div>
+  </section> -->
+
